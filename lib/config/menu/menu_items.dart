@@ -34,4 +34,24 @@ const List<MenuItems> appMenuItems = [
       subTitle: 'Snackbar e dialogos em flutter',
       link: '/snackbar',
       icon: Icons.info_outlined),
+  MenuItems(
+      title: 'Animated',
+      subTitle: 'Animated em flutter',
+      link: '/animated',
+      icon: Icons.animation_outlined),
+  MenuItems(
+      title: 'Ui Controls',
+      subTitle: 'Ui Controls em flutter',
+      link: '/uicontrols',
+      icon: Icons.control_point_duplicate_rounded),
+  MenuItems(
+      title: 'App Tutorial',
+      subTitle: 'App Tutorial em flutter',
+      link: '/apptutorial',
+      icon: Icons.tour_rounded),
+  MenuItems(
+      title: 'Infinite Scroll',
+      subTitle: 'Infinite Scroll em flutter',
+      link: '/infinite',
+      icon: Icons.perm_device_information_outlined),
 ];
