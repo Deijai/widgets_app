@@ -23,5 +23,10 @@ const List<MenuItems> appMenuItems = [
       title: 'Cards',
       subTitle: 'Cards em flutter',
       link: '/cards',
-      icon: Icons.credit_card_outlined)
+      icon: Icons.credit_card_outlined),
+  MenuItems(
+      title: 'Progress',
+      subTitle: 'Progress em flutter (geral e controlados)',
+      link: '/progress',
+      icon: Icons.refresh_rounded),
 ];
