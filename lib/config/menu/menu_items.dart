@@ -54,4 +54,14 @@ const List<MenuItems> appMenuItems = [
       subTitle: 'Infinite Scroll em flutter',
       link: '/infinite',
       icon: Icons.perm_device_information_outlined),
+  MenuItems(
+      title: 'Riverpod Counter',
+      subTitle: 'Riverpod Counter em flutter',
+      link: '/counter',
+      icon: Icons.countertops_outlined),
+  MenuItems(
+      title: 'Theme Changer',
+      subTitle: 'Theme Changer em flutter',
+      link: '/theme-changer',
+      icon: Icons.dark_mode_outlined),
 ];
