@@ -1,6 +1,6 @@
 import 'package:go_router/go_router.dart';
 import 'package:widgets_app/presetation/screens/screens.dart';
-import 'package:widgets_app/presetation/screens/theme_changer/theme_changer.dart';
+import 'package:widgets_app/presetation/screens/theme_changer/theme_changer_screen.dart';
 
 // GoRouter configuration
 final appRouter = GoRouter(

@@ -18,14 +18,17 @@ class MainApp extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    final selectedColorTheme = ref.watch(selectedIndexColorProvider);
-    final isDarkMode = ref.watch(isDarkModeProvider);
+    // final selectedColorTheme = ref.watch(selectedIndexColorProvider);
+    // final isDarkMode = ref.watch(isDarkModeProvider);
+
+    final AppTheme appTheme = ref.watch(themeNotifierProvider);
+
     return MaterialApp.router(
-      title: 'Flutter Widgets',
-      routerConfig: appRouter,
-      debugShowCheckedModeBanner: false,
-      theme: AppTheme(selectedColor: selectedColorTheme, isDarkMode: isDarkMode)
-          .getTheme(),
-    );
+        title: 'Flutter Widgets',
+        routerConfig: appRouter,
+        debugShowCheckedModeBanner: false,
+        theme: appTheme
+            .getTheme() // AppTheme(selectedColor: selectedColorTheme, isDarkMode: isDarkMode).getTheme(),
+        );
   }
 }
